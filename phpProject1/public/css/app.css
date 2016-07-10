@@ -1,0 +1,67 @@
+@import url('reset.css');
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+.main-header {
+    width: 100%;
+    border-bottom: 1px solid #aaaaaa;
+}
+.logo, .sign-up {
+    padding: 20px 8px;
+}
+.sign-up {
+    text-align: right;
+}
+.logo a, .sign-up a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #333;
+}
+nav.sign-up a {
+    font-size: 18px;
+}
+nav.sign-up a:hover {
+    color: #D14836;
+    font-size: 18px;
+}
+.table {
+    display: table;
+}
+.table-cell {
+    display: table-cell;
+}
+
+/*  Form Container
+-----------------------------------*/
+.form-container {
+    background-color: #f9f9f9;
+}
+.form-container form {
+    width: 200px;
+    margin: 0 auto;
+}
+.form {
+    padding: 40px 0;
+}
+.input-fields {
+    margin: 10px 0;
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="file"] {
+    width: 200px;
+    height: 30px;
+    padding: 2px;
+}
+.form-container input[type="file"],
+.form-container input[type="submit"] {
+    margin-top: 10px;
+}
+.form-container input[type="submit"] {
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+}
